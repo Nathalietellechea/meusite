@@ -1,0 +1,196 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/vetores-premium/textura-preta-angustiada-textura-de-sobreposicao-de-socorro-sobreposicao-de-textura-de-grao-sutil-fundo-branco_664601-1949.jpg?w=1060);
+
+    
+}
+
+.titulo{
+
+font-family:cursive;
+background-color: rgb(255, 192, 169);
+text-align: center;
+margin: -16px;
+color: azure;
+text-shadow: 1px 1px 0px black;
+padding-top: 20px;
+font-size: 35px;
+
+
+
+}
+
+.tit2{
+
+    color: black;
+margin-top: 7px;
+font-family:Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+margin: -29px;
+text-shadow: 2px 2px 0px rgb(255, 192, 169);
+padding-top: 20px;
+font-size: 35px;
+}
+
+.titulo2{
+
+margin-top: 7px;
+font-family:Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+margin: -29px;
+color: azure;
+text-shadow: 1px 1px 0px black;
+padding-top: 20px;
+font-size: 35px;
+
+}
+
+.titulo3{
+
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 40px;
+
+}
+
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2{
+
+    font-size: 40px;
+}
+
+.produto {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    width: 35%; /* Ajuste a largura dos produtos conforme necessário */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  ;
+    text-shadow: 2px 2px 0px rgb(255, 255, 255); 
+}
+
+.produto img {
+    
+    width: 250px;
+    margin-top: 20px;
+    max-width: 300px; /*tamanho máximo da imagem */
+    height: auto;
+    border: 9px solid transparent;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 7px 7px 20px rgb(255, 172, 139);
+}
+
+
+.link{
+
+    background-color:rgb(255, 172, 139);
+    color: white;
+    padding: 15PX 20px;
+    text-decoration: none;
+    border-radius: 10px 10px 10px;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0); 
+    font-size: 15px;
+   
+    
+    }
+
+    
+    @media screen and (max-width:768px){
+
+.produto{
+
+    width: 200%;;
+}
+
+
+    }
+ 
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 7px 7px 20px rgb(255, 172, 139);
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    
+    
+    
+    .checkbox-group input[type="checkbox"] {
+        margin-right: 5px;
+    }
+    
+    .radio-group input[type="radio"] {
+        margin-right: 5px;
+    }
+    
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    @media (max-width: 600px) {
+        .container {
+            max-width: 100%;
+        }
+    }
+
+ 
+
+ .imgtit{
+
+width: 120px;
+margin-left: -1200px;
+margin-top: -115px;
+
+ }
+
+ .deli{
+
+font-size: 25px;
+margin-top: -50px;
+ }
+
+
+.insta{
+
+    background-color: #fcfcfc;
+    color:  rgb(178, 178, 178);
+margin-left: -1px;
+margin-right: -25px;
+box-shadow: 0 5px 15px rgb(255, 192, 169);
+font-family:cursive;
+
+  
+}
+
